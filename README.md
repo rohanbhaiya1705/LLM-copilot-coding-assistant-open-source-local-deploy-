@@ -13,28 +13,3 @@ Vulkan and SYCL backend support
 CPU+GPU hybrid inference to partially accelerate models larger than the total VRAM capacity
 The llama.cpp project is the main playground for developing new features for the ggml library.
 
-Models
-Bindings
-UIs
-Tools
-Infrastructure
-Games
-Supported backends
-Backend	Target devices
-Metal	Apple Silicon
-BLAS	All
-BLIS	All
-SYCL	Intel GPU
-OpenVINO [In Progress]	Intel CPUs, GPUs, and NPUs
-MUSA	Moore Threads GPU
-CUDA	Nvidia GPU
-HIP	AMD GPU
-ZenDNN	AMD CPU
-Vulkan	GPU
-CANN	Ascend NPU
-OpenCL	Adreno GPU
-IBM zDNN	IBM Z & LinuxONE
-WebGPU	All
-RPC	All
-Hexagon [In Progress]	Snapdragon
-VirtGPU	VirtGPU APIR
